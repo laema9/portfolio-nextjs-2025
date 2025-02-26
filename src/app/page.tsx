@@ -1,8 +1,10 @@
+import Navbar from "@/components/Navbar";
 import { HeroGeometric } from "@/components/ui/shape-landing-hero"
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <HeroGeometric badge="Title 1"
           title1 = "Title 2"
           title2 = "Title 3" 
